@@ -31,7 +31,7 @@ Instructions:. Be concise and to the point.
 export async function main(prompt = defaultPrompt) {
   try {
     console.log("loading...");
-    const response = await axios.post("https://backend-for-apis.onrender.com/api/gemini", {
+    const response = await axios.post("https://vercel.com/muhammad-awais-projects-cac9c479/backend-api-handler/api/gemini", {
       prompt,
     });
     const answer = response.data.answer;
